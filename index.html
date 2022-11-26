@@ -3,9 +3,66 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Hello Git</title>
+	<title>China town</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js" defer></script>
 </head>
 <body>
-	<h1>Hello Git</h1>
+	<header>
+		<h1>CHINA TOWN</h1>
+		<img class="lantern left" src="paper_lantern2.png">
+		<img class="lantern right" src="paper_lantern2.png">
+	</header>
+	<main>
+		<div class="house">
+			<img class="roof" src="ChineseRoof.svg">
+			<div class="block">
+				<div class="window">
+					<h2>CHEF</h2>
+					<img src="cat_chef.jpg">
+				</div>
+			</div>
+		</div>
+		<div class="house">
+			<img class="roof" src="ChineseRoof.svg">
+			<div class="block">
+				<div class="window">
+					<h2>MENU</h2>
+					<ul>
+						<li>Item 1</li>
+						<li>Item 2</li>
+						<li>Item 3</li>
+						<li>Item 4</li>
+						<li>Item 5</li>
+						<li>Item 6</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</main>
+	<section class="order">
+		<h2>ORDER</h2>
+		<form id="id-order">
+			<label>Dish:</label><br>
+			<input id="dish" type="text" name=""><br>
+			<label>Time:</label><br>
+			<input id="time" type="time" name=""><br>
+			<label>Adress:</label><br>
+			<input id="adrr" type="text" name=""><br>
+			<label>Thelephone:</label><br>
+			<input id="tel" type="tel" name=""><br>
+			<input type="submit" name="" value="Order">
+		</form>
+		<table id="order-table">
+			<tr>
+				<th>Dish</th>
+				<th>Time</th>
+				<th>Adress</th>
+				<th>Thelephone</th>
+				<th>Download</th>
+			</tr>
+		</table>
+	</section>
+
 </body>
 </html>
